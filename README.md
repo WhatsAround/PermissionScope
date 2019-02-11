@@ -53,7 +53,7 @@ PermissionScope requires iOS 10+, compatible with both **Swift 4** and **Objecti
 
 Installation for [Carthage](https://github.com/Carthage/Carthage) is simple enough:
 
-`github "nickoneill/PermissionScope" ~> 1.0`
+`git "https://github.com/WhatsAround/PermissionScope.git" "master"`
 
 As for [Cocoapods](https://cocoapods.org), use this to get the latest release:
 
