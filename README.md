@@ -60,7 +60,7 @@ As for [Cocoapods](https://cocoapods.org), use this to get the latest release:
 ```ruby
 use_frameworks!
 
-pod 'PermissionScope'
+pod 'PermissionScope', :git => 'https://github.com/WhatsAround/PermissionScope.git'
 ```
 
 And `import PermissionScope` in the files you'd like to use it.
