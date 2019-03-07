@@ -1,4 +1,4 @@
-## This repository have forked from nickoneill/PermissionScope which is no longer supported. We have upgraded to swift 4.0
+## This repository have forked from nickoneill/PermissionScope which is no longer supported. We have upgraded to swift 4.2
 
 <p align="center">
     <img src="http://raquo.net/images/banner.png" alt="PermissionScope" />
@@ -47,7 +47,7 @@ Supported permissions:
 
 ## compatibility
 
-PermissionScope requires iOS 10+, compatible with both **Swift 4** and **Objective-C** based projects.
+PermissionScope requires iOS 10+, compatible with both **Swift 4.2** and **Objective-C** based projects.
 
 ## installation
 
