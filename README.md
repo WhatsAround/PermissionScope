@@ -1,4 +1,4 @@
-## PermissionScope is no longer supported. Please use an alternative if you need updates for newer iOS 10 and 11 APIs!
+## This repository have forked from nickoneill/PermissionScope which is no longer supported. We have upgraded to swift 4.0
 
 <p align="center">
     <img src="http://raquo.net/images/banner.png" alt="PermissionScope" />
@@ -47,22 +47,20 @@ Supported permissions:
 
 ## compatibility
 
-PermissionScope requires iOS 8+, compatible with both **Swift 3** and **Objective-C** based projects.
-
-For Swift 2.x support, please use the swift2 branch or the 1.0.2 release version. This branch was up-to-date on 9/6/16 but is not being maintained. All future efforts will go towards Swift 3 development.
+PermissionScope requires iOS 10+, compatible with both **Swift 4** and **Objective-C** based projects.
 
 ## installation
 
 Installation for [Carthage](https://github.com/Carthage/Carthage) is simple enough:
 
-`github "nickoneill/PermissionScope" ~> 1.0`
+`git "https://github.com/WhatsAround/PermissionScope.git" "master"`
 
 As for [Cocoapods](https://cocoapods.org), use this to get the latest release:
 
 ```ruby
 use_frameworks!
 
-pod 'PermissionScope'
+pod 'PermissionScope', :git => 'https://github.com/WhatsAround/PermissionScope.git'
 ```
 
 And `import PermissionScope` in the files you'd like to use it.
